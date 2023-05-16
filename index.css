@@ -1,0 +1,40 @@
+ .topic {
+     font-family: 'Oswald', sans-serif;
+ }
+
+ .passage {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .btn-striped {
+     background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+     background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+     background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+     background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+     background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+     background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+     -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+     -o-background-size: 40px 40px;
+     background-size: 40px 40px;
+ }
+
+ .card:hover {
+     box-shadow: 5px 6px 6px 2px #e9ecef;
+     transform: scale(1.1);
+ }
+ nav-link{
+    transition: all 12s;
+ }
+ .nav-link:hover{
+    border-bottom: 2px solid blue;
+ }
+ .nav-link:active{
+   border-bottom: 2px solid blue;
+ }
+ section{
+    min-height: 100vh;
+ }
+ /* .active{
+   border-bottom: 2px solid blue;
+} */
